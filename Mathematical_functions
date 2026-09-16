@@ -1,0 +1,19 @@
+arr=np.array([1,4,9])
+
+print(np.sqrt(arr))
+
+#output
+[1. 2. 3.]
+
+print(np.exp(arr))
+
+#output
+[2.71828183e+00 5.45981500e+01 8.10308393e+03]
+
+
+print(np.log(arr))
+
+output
+[0.         1.38629436 2.19722458]
+
+
