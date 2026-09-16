@@ -1,0 +1,29 @@
+arr=np.array([10,20,30,40])
+
+print(arr.sum())
+print(arr.mean())
+print(arr.min())
+print(arr.max())
+print(np.median(arr))
+print(arr.std())
+
+output
+100
+25.0
+10
+40
+25.0
+11.180339887498949
+
+#axis
+#axis=0 colunm wise operation
+#axis=1 row wise operation
+arr=np.array([
+    [1,2,3],
+    [4,5,6]
+])
+print(arr.sum(axis=0))
+output is [5 7 9]
+
+print(arr.sum(axis=1))
+output is [ 6 15]
